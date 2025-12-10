@@ -74,8 +74,8 @@ function playGame(playerMove) {
 
 
     document.querySelector('.js-result').innerHTML = `<span class="result-span">${result}</span>`;
-    document.querySelector('.js-moves').innerHTML = `You : <img class="paper-img move-img"
-                    src="img/${playerMove}-move.png" alt=""> <span class="vs-span">VS</span> <img class="paper-img move-img"
+    document.querySelector('.js-moves').innerHTML = `You : <img class="move-img result-img"
+                    src="img/${playerMove}-move.png" alt=""> <span class="vs-span">VS</span> <img class="result-img move-img"
                     src="img/${computerMove}-move.png" alt=""> : PC`
     updateScoreElement();
     localStorage.setItem('score', JSON.stringify(score));
