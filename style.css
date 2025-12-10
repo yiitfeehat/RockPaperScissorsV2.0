@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+body {
+    font-size: 20px;
+    text-align: center;
+    background-color: #739bc4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro-text{
+    font-family: "Nabla";
+}
+
+
+.button-container {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move-button {
+    height: 120px;
+    width: 120px;
+    background-color: #cae1f8;
+    padding: 0px;
+    border: 2px solid gold;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.move-button:hover {
+    scale: 1.15;
+}
+
+.rock-img,
+.paper-img,
+.scissors-img {
+    height: 100px;
+}
+
+.vs-span {
+    font-size: 140px;
+    letter-spacing: -50px;
+    margin-right: 60px;
+    text-shadow: 0 0 10px gold;
+}
+
+.info-texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.boxes {
+    margin: 3px;
+    padding: 0px;
+}
+
+.result-span {
+    font-size: 50px;
+}
+
+.reset-score-button {
+    margin-top: 30px;
+    color: white;
+    border: 1px solid gold;
+    padding: 7px 14px;
+    background-color: rgb(125, 55, 55);
+    transition: 0.3s all;
+}
+
+.reset-score-button:hover {
+    scale: 1.05;
+    box-shadow: 0px 0px 12px red;
+
+}
