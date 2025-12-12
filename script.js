@@ -16,6 +16,21 @@ const score = JSON.parse(localStorage.getItem('score')) || {
 
     alert('Score successfully reset!')
 }
+let isAutoPlaying = false;
+let autoPlayInterval;
+function autoPlay() {
+    if (!isAutoPlaying) {
+        autoPlayInterval = setInterval(function () {
+            playGame(pickComputerMove())
+            isAutoPlaying = true;
+        }, 1000)
+    } else {
+        clearInterval(autoPlayInterval);
+        isAutoPlaying = false;
+    }
+
+
+}
 
 updateScoreElement()
 function pickComputerMove() {
