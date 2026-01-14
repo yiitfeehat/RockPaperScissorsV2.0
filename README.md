@@ -1,5 +1,6 @@
 # Rock Paper Scissors - V 2.0 🎮
-(img/rock-paper-scissors.gif)
+
+![Rock Paper Scissors Demo](img/rock-paper-scissors.gif)
 
 Bu proje, temel web geliştirme becerilerini pekiştirmek amacıyla geliştirilmiş, skor takibi ve otomatik oynatma özellikleri sunan eğlenceli bir **Taş Kağıt Makas (Rock Paper Scissors)** oyunudur. Vanilla JavaScript kullanılarak, harici bir framework bağımlılığı olmadan (No-Framework) geliştirilmiştir.
 
